@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "data": ["./data.ts"]
+    },
     "lib": ["ESNext"],
     "module": "esnext",
     "target": "esnext",

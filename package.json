@@ -3,7 +3,7 @@
   "module": "index.tsx",
   "type": "module",
   "scripts": {
-    "start": "bun run index.ts"
+    "start": "bun run turbun.tsx"
   },
   "devDependencies": {
     "bun-types": "latest"

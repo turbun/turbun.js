@@ -2,6 +2,9 @@
   "name": "turbun",
   "module": "index.tsx",
   "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

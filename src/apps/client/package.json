@@ -1,7 +1,10 @@
 {
-  "name": "client",
+  "name": "@bun/client",
   "module": "turbun.tsx",
   "type": "module",
+  "scripts": {
+    "start": "bun run turbun.tsx"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

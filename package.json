@@ -1,14 +1,20 @@
 {
   "name": "turbun",
   "module": "index.tsx",
+  "workspaces": [
+    "src/apps**"
+  ],
   "type": "module",
   "scripts": {
-    "start": "bun run turbun.tsx"
+    "start": "lerna exec --parallel --scope @bun/service -- bun run turbun.tsx & lerna exec --parallel --scope @bun/client -- bun run turbun.tsx &"
   },
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "lerna": "^7.3.0"
   }
 }

@@ -1,7 +1,10 @@
 {
-  "name": "service",
+  "name": "@bun/service",
   "module": "turbun.tsx",
   "type": "module",
+  "scripts": {
+    "start": "bun run turbun.tsx"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },

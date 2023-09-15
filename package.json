@@ -6,7 +6,7 @@
   ],
   "type": "module",
   "scripts": {
-    "start": "lerna exec --parallel --scope @bun/service -- bun run turbun.tsx & lerna exec --parallel --scope @bun/client -- bun run turbun.tsx &"
+    "start": "lerna exec --parallel --scope nextjs -- bun start & lerna exec --parallel --scope sveltejs -- bun dev & lerna exec --parallel --scope astrojs -- bun dev & lerna exec --parallel --scope nuxtjs -- bun dev"
   },
   "devDependencies": {
     "bun-types": "latest"

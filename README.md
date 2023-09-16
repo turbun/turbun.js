@@ -6,4 +6,4 @@
 
 Turbun - the foundation for Turbo Repo.
 
-standing only ```bun start``` and all microfrontend applications 
+standing only ```bun start``` and all microfrontend & service applications 

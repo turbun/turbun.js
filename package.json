@@ -2,7 +2,7 @@
   "name": "turbun",
   "module": "index.tsx",
   "workspaces": [
-    "src/apps**"
+    "src/apps/*"
   ],
   "type": "module",
   "scripts": {
